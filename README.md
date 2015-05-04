@@ -1,6 +1,6 @@
 # Genesis Theme Options
 
-WordPress plugin that adds additional Theme Options to the Genesis Framework.
+WordPress plugin that adds Theme Options to the Genesis Framework.
 
 ## Requirements
  * WordPress 4.0
@@ -26,7 +26,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 
 ## Usage
 
-This plugin provides additional options for the Genesis Framework that appear in the Genesis Theme Settings page. Once the plugin has been activated you can specify the number of posts per page, how you prefer posts to be ordered by (date, title, etc.) and whether to have posts in ascending or descending order. Additional options will be added in the near future.
+This plugin adds options for the Genesis Framework that appear in the Genesis Theme Settings page. Once the plugin has been activated you can specify the number of posts per page, how you prefer posts to be ordered by (date, title, etc.) and whether to have posts in ascending or descending order. Additional options will be added in the near future.
 
 ## Issues
 
