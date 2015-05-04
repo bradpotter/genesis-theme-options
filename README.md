@@ -1,6 +1,6 @@
 # Genesis Theme Options
 
-WordPress plugin that adds additional Theme Options to Genesis Framework themes.
+WordPress plugin that adds additional Theme Options to the Genesis Framework.
 
 ## Requirements
  * WordPress 4.0
