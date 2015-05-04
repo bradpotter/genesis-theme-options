@@ -30,7 +30,7 @@ function gto_post_options_content() {
 	?>
 		<div>
 		<label for="<?php echo GENESIS_SETTINGS_FIELD; ?>[gto_post_amount]"><?php _e( 'Posts Per Page', 'genesis-theme-options' ); ?></label>
-		<input name="<?php echo GENESIS_SETTINGS_FIELD; ?>[gto_post_amount]" id="<?php echo GENESIS_SETTINGS_FIELD; ?>[gto_post_amount]" type="text" value="<?php echo esc_attr( genesis_get_option('gto_post_amount') ); ?>" size="4" />
+		<input name="<?php echo GENESIS_SETTINGS_FIELD; ?>[gto_post_amount]" id="<?php echo GENESIS_SETTINGS_FIELD; ?>[gto_post_amount]" type="number" value="<?php echo esc_attr( genesis_get_option('gto_post_amount') ); ?>" size="4" />
 		<p class="description"><?php _e( 'Enter the number of posts per page. Enter -1 to display all posts in one page', 'genesis-theme-options' ); ?></p>
 		</div><br />
 
