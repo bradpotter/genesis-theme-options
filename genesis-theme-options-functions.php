@@ -23,7 +23,7 @@ function gto_post_query( $query ) {
 		$term = $wp_query->get_queried_object();
 	}
 
-	if ( ! is_admin() $query->is_main_query() ) {
+	if ( ! is_admin() && $query->is_main_query() ) {
 
 		$query->set( 'posts_per_page', genesis_get_option('gto_post_amount') );
 		$query->set( 'orderby', genesis_get_option('gto_post_orderby') );
