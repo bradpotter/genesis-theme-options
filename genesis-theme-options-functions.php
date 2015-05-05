@@ -19,10 +19,6 @@ function gto_post_query( $query ) {
 
 	global $wp_query;
 
-	if ( $query->is_main_query() ) {
-		$term = $wp_query->get_queried_object();
-	}
-
 	if ( ! is_admin() && $query->is_main_query() ) {
 
 		$query->set( 'posts_per_page', genesis_get_option('gto_post_amount') );
